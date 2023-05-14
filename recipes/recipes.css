@@ -82,3 +82,14 @@ img {
     background-color: #1F2937;
     padding: 16px;
 }
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-height: 300px;
+        width: auto;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+}
